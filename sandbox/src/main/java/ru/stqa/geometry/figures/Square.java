@@ -7,7 +7,11 @@ public class Square {
         System.out.println(text);
     }
 
-    private static double getSquareArea(double side) {
+    public static double getSquareArea(double side) {
         return side * side;
+    }
+
+    public static double perimeter(double a) {
+        return 4 * a;
     }
 }
