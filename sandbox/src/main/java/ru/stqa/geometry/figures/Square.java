@@ -11,7 +11,12 @@ public class Square {
         return side * side;
     }
 
-    public static double perimeter(double a) {
+    public static double getSquarePerimeter(double a) {
         return 4 * a;
+    }
+
+    public static void printSquarePerimeter(double a) {
+        String text = String.format("Площадь квадрата со стороной %f = %f", a, getSquarePerimeter(a));
+        System.out.println(text);
     }
 }

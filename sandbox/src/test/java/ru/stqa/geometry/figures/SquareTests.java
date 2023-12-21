@@ -12,6 +12,6 @@ public class SquareTests {
 
     @Test
     void canCalculatePerimeter() {
-        Assertions.assertEquals(68.0, Square.perimeter(17.0));
+        Assertions.assertEquals(68.0, Square.getSquarePerimeter(17.0));
     }
 }
